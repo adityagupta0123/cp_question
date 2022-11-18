@@ -9,7 +9,9 @@ class Solution {
             
             maxprofit = Math.max( maxprofit , profit );
         }
-        // return maxprofit;
+         return maxprofit;
+
+
 //         int n = prices.length;
 //         int []left = new int[n];
 //         left[0] = prices[0];
