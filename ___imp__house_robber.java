@@ -15,6 +15,9 @@ class Solution {
         //     dp[i] = Integer.max(nums[i] + dp[i-2], dp[i-1]);
         
         // return dp[n-1];
+        
+        // inc --> 5 | 5 | 15 | 105 | 25  | 110
+        // exc --> 0 | 5 | 5  | 15  | 105 | 105
         int include = nums[0];
         int exclude = 0;
         for(int i =1; i< nums.length; i++){
